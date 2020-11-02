@@ -1,0 +1,482 @@
+*{
+  font-family: poppins;
+}
+.wrapper{
+  position: relative;
+  margin: auto;
+  width: 1024px;
+  height: 403px;
+}
+.active{
+    border: none;
+    border-bottom: 1px solid #575A88;
+
+}
+/* HEADER*/
+.header {
+  width: 1024px;
+  height: 403px;
+  background-color: #FDF3F3;
+
+}
+.header ul a li{
+  position: relative;
+  display: block;
+  float: left;
+  text-decoration: none;
+  left: 521px;
+  margin: 69px 57px 0 0;
+  font-family: roboto;
+  color: #1B1C1E;
+}
+.header ul a li:hover{
+  border-bottom: 1px solid #575A88;
+
+}
+
+.logo{
+  position: absolute;
+  margin: 75px 0px 0px 102px;
+
+}
+
+.phoneN{
+  position: absolute;
+  margin: 58px 0px 0px 237px;
+  font-family: roboto;
+  color: #1B1C1E;
+}
+
+.want-a-free-estimate{
+  position: absolute;
+  margin: 188px -35px;
+  width: 198px;
+  height: 101px;
+  text-align: center;
+  font-family: poppins;
+}
+.request-a-quote{
+  position: absolute;
+
+  border: 1px solid #808080;
+  width: 190px;
+  height: 36px;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+ -webkit-border-radius: 5px;
+
+ /* Firefox 1-3.6 */
+ -moz-border-radius: 5px;
+
+ /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+ border-radius: 5px;
+}
+
+a .request-a-quote {
+  position: absolute;
+  margin: 305px -35px;
+  height: 36px;
+  width: 190px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #1B1C1E;
+  font-family: poppins;
+
+}
+a .request-a-quote h4{
+  position: absolute;
+  margin: 9.5px 45.5px 9.5px 45.5px;
+  text-decoration: none;
+}
+ a .request-a-quote:hover {
+  background-color: #687EFF;
+  color: #ffffff;
+  border: 0px;
+  transition: 0.1s linear 0.1s;
+  -webkit-transition: 0.1s linear 0.1s;
+  -moz-transition: 0.1s linear 0.1s;
+}
+.bubbles{
+    position: absolute;
+    margin: 124px 102px 0px 210px;
+}
+/*END OF HEADER*/
+
+/*Section 2 of home page(services)*/
+.house-cleaning{
+  position: absolute;
+
+  margin: 95px 0px 104px 133.6px;;
+  width: 147px;
+  height: 62.26px;
+  text-align: center;
+  border: 2px solid #FF6D6D;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+ -webkit-border-radius: 5px;
+ /* Firefox 1-3.6 */
+ -moz-border-radius: 5px;
+ /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+ border-radius: 5px;
+}
+a .house-cleaning, a .deep-cleaning, a .changeovers{
+    text-decoration: none;
+    color: #1B1C1E;
+    font-size: 12px;
+
+}
+.deep-cleaning{
+  position: absolute;
+  margin: 95px 0px 188px 439px;;
+  width: 147px;
+  height: 62.26px;
+  text-align: center;
+    vertical-align: middle;
+    line-height: 31px;
+  border: 2px solid #FF6D6D;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+ -webkit-border-radius: 5px;
+ /* Firefox 1-3.6 */
+ -moz-border-radius: 5px;
+ /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+ border-radius: 5px;
+
+}
+.changeovers{
+  position: absolute;
+  margin: 95px 104px 0px 773px;;
+  width: 147px;
+  height: 62.26px;
+  text-align: center;
+    vertical-align: middle;
+    line-height: 31px;
+  border: 2px solid #FF6D6D;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+ -webkit-border-radius: 5px;
+ /* Firefox 1-3.6 */
+ -moz-border-radius: 5px;
+ /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+ border-radius: 5px;
+
+}
+.services{
+    height: 235px;
+}
+/*FOOTER*/
+.footer {
+    width: 1024px;
+    height: 149px;
+    background-color: #FDF3F3;
+    position: relative;
+    top: 60px;
+}
+.footer ul a li{
+    position: relative;
+    display: block;
+    float: left;
+    text-decoration: none;
+    left: 321px;
+    margin: 69px 57px 0 0;
+    font-family: roboto;
+    color: #1B1C1E;
+}
+.footer ul a li:hover{
+    border-bottom: 1px solid #575A88;
+
+}
+.social{
+    width: 26px;
+    height: 27px;
+    position: relative;
+    float: right;
+    top: 66px;
+    right: 50px;
+    display: block;
+}
+/*END FOOTER*/
+
+/*SERVICES*/
+.image1{
+    width: 231px;
+    height: 245px;
+    border: 2px  solid #FF6D6D;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin: 63px 104px 63px 0px;
+}
+.image2{
+    width: 231px;
+    height: 245px;
+    border: 2px  solid #FF6D6D;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin: 63px 104px 63px 0px;
+}
+.image3{
+    width: 231px;
+    height: 245px;
+    border: 2px  solid #FF6D6D;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin: 63px 104px 63px 0px;
+}
+.services-images{
+    display: block;
+    margin: 63px 104px 63px 271px;
+}
+
+/* HOUSE-MAINTENANCE */
+
+.services-house-maintenance{
+    position: relative;
+    float: right;
+    margin: -335px 0 0 335px;
+}
+.services-house-maintenance p{
+    font-size: 12px;
+    position: relative;
+    margin-top: 62px;
+
+}
+
+.services-house-maintenance a span{
+    height: 36px;
+    width: 190px;
+    padding: 10px 30px;
+
+    position: relative;
+    margin-top: 32px;
+    border: 1px solid #1B1C1E;
+
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+
+}
+.services-house-maintenance a{
+    text-decoration: none;
+    color: #1B1C1E;
+    font-size: 12px;
+}
+/* END OF HOUSE-MAINTENANCE SECTION */
+
+/* deep-cleaning */
+.services-deep-cleaning {
+    position: relative;
+    float: right;
+    margin: -335px 0 0 335px;
+}
+.services-deep-cleaning p{
+    font-size: 12px;
+    position: relative;
+    margin-top: 62px;
+}
+.services-deep-cleaning a{
+    text-decoration: none;
+    color: #1B1C1E;
+    font-size: 12px;
+}
+.services-deep-cleaning a span{
+    height: 36px;
+    width: 190px;
+    padding: 10px 30px;
+
+    position: relative;
+    margin-top: 32px;
+    border: 1px solid #1B1C1E;
+
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+
+}
+/* END DEEP-CLEANING SECTION */
+
+/* CHANGEOVER */
+.services-changeover{
+    position: relative;
+    float: right;
+    margin: -335px 0 0 335px;
+}
+
+.services-changeover p{
+    font-size: 12px;
+    position: relative;
+    margin-top: 62px;
+}
+.services-changeover a{
+    text-decoration: none;
+    color: #1B1C1E;
+    font-size: 12px;
+}
+.services-changeover a span{
+    height: 36px;
+    width: 190px;
+    padding: 10px 30px;
+
+    position: relative;
+    margin-top: 32px;
+
+    border: 1px solid #1B1C1E;
+
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+
+}
+/* END OF CHANGEOVER SECTION AND SERVICES PAGE*/
+
+/* ABOUT PAGE */
+.about-images{
+
+    position: relative;
+    margin-top: 45px;
+
+}
+.image4{
+    width: 231px;
+    height: 272px;
+    border: 2px  solid #FF6D6D;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin: 0px 104px 0px 207px ;
+}
+
+.image5{
+    width: 231px;
+    height: 272px;
+    border: 2px  solid #FF6D6D;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+    margin: 0px 187px 0px 0px;
+}
+
+.about-text{
+    position: relative;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.about-content{
+
+    width: 1024px;
+    height: 665px;
+}
+
+#laura{
+    position: absolute;
+    margin: 270px 104px 0px 260px ;
+}
+#lia{
+    position: absolute;
+    margin: 252px 450px 0px 150px ;
+    width: 100px;
+}
+
+/* END OF ABOUT PAGE */
+
+/* CONTACT PAGE */
+
+.contact-box{
+    width: 351.6px;
+    height: 414px;
+    border: 2px solid #1EB4AA;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 2px;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 2px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 2px;
+    margin-left:336px;
+    margin-top: 100px;
+    color: #1EB4AA;
+
+}
+.want-a-free-estimate-contact{
+    position: absolute;
+    margin: 188px -35px;
+    width: 228px;
+    height: 101px;
+    text-align: center;
+    font-family: poppins;
+}
+.contact-box p{
+    text-align: center;
+}
+.contact-form{
+    position: relative;
+    left: 45px;
+}
+#fname{
+    width: 244.83px;
+    border: none;
+    border-bottom: 1px solid #1EB4AA;
+
+}
+#femail{
+    width: 244.83px;
+    border: none;
+    border-bottom: 1px solid #1EB4AA;
+
+}
+#fsubject{
+    width: 244.83px;
+    border: none;
+    border-bottom: 1px solid #1EB4AA;
+
+}
+#fmessage{
+    width: 244.83px;
+    border: none;
+    border-bottom: 1px solid #1EB4AA;
+
+}
+.contact-send-button{
+    position: relative;
+    margin: 40px 0px 0px 0px;
+    border: 1px solid #1EB4AA;
+    background-color: #ffff;
+    color: #1EB4AA;
+    width: 112px;
+    height: 49px;
+    font-size: 20px;
+    cursor: pointer;
+}
